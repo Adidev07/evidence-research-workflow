@@ -1,0 +1,14 @@
+{
+  "project": "<script>bad()</script>",
+  "source": "<img src=x onerror=bad()>"
+}
+test_fabricated_quote (test_app.DomainTests.test_fabricated_quote) ... ok
+test_missing_evidence (test_app.DomainTests.test_missing_evidence) ... ok
+test_valid_quote (test_app.DomainTests.test_valid_quote) ... ok
+test_html_escapes_untrusted_content (test_reporting.ReportingTests.test_html_escapes_untrusted_content) ... ok
+test_zero_positive_metrics (test_reporting.ReportingTests.test_zero_positive_metrics) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.033s
+
+OK

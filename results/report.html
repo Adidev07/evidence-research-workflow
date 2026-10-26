@@ -1,0 +1,49 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Evidence Research Workflow</title><style>body{font:16px system-ui;max-width:1100px;margin:40px auto;padding:20px;background:#101c2f;color:#e8f2ff}h1{color:#8ee7d1}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#182c46;padding:24px;border-radius:12px;line-height:1.5}.cards{display:flex;flex-wrap:wrap;gap:15px}.card{padding:20px;background:#213953;border-radius:10px;min-width:160px}b{display:block;font-size:26px;margin-top:10px}</style><h1>Evidence Research Workflow</h1><p>Reproducible educational experiment. See README and model card for scope and limitations.</p><div class="cards"></div><h2>Complete results</h2><pre>{
+  &quot;project&quot;: &quot;Evidence Research Workflow&quot;,
+  &quot;mode&quot;: &quot;fixture&quot;,
+  &quot;trace&quot;: [
+    {
+      &quot;stage&quot;: &quot;retrieve&quot;,
+      &quot;hits&quot;: [
+        {
+          &quot;id&quot;: &quot;beta-testing:0&quot;,
+          &quot;source&quot;: &quot;beta-testing&quot;,
+          &quot;text&quot;: &quot;A useful bug report includes reproduction steps, expected behavior, actual behavior and the browser or device environment. Use synthetic data in public examples. Severity describes impact, while priority also depends on reach and deadlines. Duplicate suggestions should be reviewed before&quot;,
+          &quot;tenant&quot;: &quot;public&quot;,
+          &quot;score&quot;: 7.322907399924011
+        },
+        {
+          &quot;id&quot;: &quot;refund-policy:32&quot;,
+          &quot;source&quot;: &quot;refund-policy&quot;,
+          &quot;text&quot;: &quot;ends after an approved full refund. Exceptions require a support review and are never guaranteed by an automated assistant.&quot;,
+          &quot;tenant&quot;: &quot;public&quot;,
+          &quot;score&quot;: 0.626427702480524
+        },
+        {
+          &quot;id&quot;: &quot;shipping-guide:32&quot;,
+          &quot;source&quot;: &quot;shipping-guide&quot;,
+          &quot;text&quot;: &quot;be reported to support with the tracking identifier. Shipping estimates are targets and are not a guarantee of delivery.&quot;,
+          &quot;tenant&quot;: &quot;public&quot;,
+          &quot;score&quot;: 0.626427702480524
+        }
+      ]
+    },
+    {
+      &quot;stage&quot;: &quot;draft&quot;,
+      &quot;brief&quot;: {
+        &quot;summary&quot;: &quot;Include reproduction steps, expected and actual behavior, and environment details.&quot;,
+        &quot;evidence&quot;: [
+          {
+            &quot;source&quot;: &quot;beta-testing&quot;,
+            &quot;quote&quot;: &quot;A useful bug report includes reproduction steps, expected behavior, actual behavior and the browser or device environment.&quot;
+          }
+        ]
+      }
+    },
+    {
+      &quot;stage&quot;: &quot;verify&quot;,
+      &quot;exact_quotes_valid&quot;: true
+    }
+  ],
+  &quot;verification_scope&quot;: &quot;Exact quote provenance only, not factual entailment.&quot;
+}</pre></html>

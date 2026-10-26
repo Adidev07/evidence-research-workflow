@@ -1,0 +1,49 @@
+{
+  "project": "Evidence Research Workflow",
+  "mode": "fixture",
+  "trace": [
+    {
+      "stage": "retrieve",
+      "hits": [
+        {
+          "id": "beta-testing:0",
+          "source": "beta-testing",
+          "text": "A useful bug report includes reproduction steps, expected behavior, actual behavior and the browser or device environment. Use synthetic data in public examples. Severity describes impact, while priority also depends on reach and deadlines. Duplicate suggestions should be reviewed before",
+          "tenant": "public",
+          "score": 7.322907399924011
+        },
+        {
+          "id": "refund-policy:32",
+          "source": "refund-policy",
+          "text": "ends after an approved full refund. Exceptions require a support review and are never guaranteed by an automated assistant.",
+          "tenant": "public",
+          "score": 0.626427702480524
+        },
+        {
+          "id": "shipping-guide:32",
+          "source": "shipping-guide",
+          "text": "be reported to support with the tracking identifier. Shipping estimates are targets and are not a guarantee of delivery.",
+          "tenant": "public",
+          "score": 0.626427702480524
+        }
+      ]
+    },
+    {
+      "stage": "draft",
+      "brief": {
+        "summary": "Include reproduction steps, expected and actual behavior, and environment details.",
+        "evidence": [
+          {
+            "source": "beta-testing",
+            "quote": "A useful bug report includes reproduction steps, expected behavior, actual behavior and the browser or device environment."
+          }
+        ]
+      }
+    },
+    {
+      "stage": "verify",
+      "exact_quotes_valid": true
+    }
+  ],
+  "verification_scope": "Exact quote provenance only, not factual entailment."
+}
